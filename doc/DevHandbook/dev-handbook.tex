@@ -1,0 +1,74 @@
+\documentclass{article}
+\usepackage{hyperref}
+
+\title{Rabbit Development Handbook}
+\author{Zhengyi Zhang}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\section{Introduction}
+
+Rabbit is an innovative FPGA virtualization platform that enables seamless interaction between FDP3P7 and a computer system. Built with C++/Qt, this software facilitates the visualization and monitoring of FPGA pin outputs through USB connectivity.
+
+\subsection{FDP3P7 chip overview}
+
+
+
+\subsection{Previous Work}
+
+Rabbit is an advanced FPGA virtualization platform that sets a new standard in performance and usability. It aims to overcome the limitations of existing solutions by offering a seamless replacement for the initial version of VeriInstrument, a non-open-source software exclusively designed for Windows.
+
+VeriInstrument, while capable of reaching a maximum frequency of 10kHz, suffers from significant interface lag, rendering it virtually unusable at higher frequencies. On the other hand, \href{https://github.com/ChayCai/Wonton_master}{Wonton}, an open-source alternative developed by former students of Fudan University using the Electron framework, provides an aesthetically pleasing interface but is limited to frequencies in the range of a few hundred hertz, making it inadequate as a complete substitute for VeriInstrument.
+
+With Rabbit, we have successfully addressed these challenges. Building upon the capabilities of VeriInstrument, Rabbit offers a superior user experience and significantly enhances performance. It achieves this by elevating the frequency limit to an impressive 50kHz while eliminating interface lag.
+
+
+\subsection{Key Features}
+
+The Rabbit software offers a wide range of features that enhance the FPGA development experience. Some of the key features include:
+
+1. FPGA Integration: Rabbit establishes a robust connection between FDP3P7 and the computer system, allowing bidirectional communication.
+Real-time Pin Output: With Rabbit, users can monitor and visualize the pin outputs of the FPGA in real-time, providing valuable insights into the device's behavior.
+
+2. USB Interface: Leveraging the power of USB connectivity, Rabbit ensures a reliable and high-speed data transfer between the FPGA and the computer system.
+Intuitive User Interface: The software offers a user-friendly interface, designed to simplify the interaction with the FPGA and enhance the overall user experience.
+
+3. Extensive Compatibility: Rabbit is designed to work seamlessly with various FPGA configurations, providing flexibility for different project requirements.
+How It Works:
+
+4. Hardware Setup: Connect the FDP3P7 FPGA device to the computer system using a USB cable.
+
+5. Software Installation: Install Rabbit software on the computer system, which is developed using C++/Qt for optimal performance.
+
+6. Real-time Monitoring: Launch the Rabbit application and instantly gain access to real-time visualizations of the FPGA pin outputs.
+
+7. Interactive Control: Interact with the FPGA, send commands, and receive responses through the intuitive user interface provided by Rabbit.
+
+8. Data Analysis: Utilize the monitored pin outputs to analyze and troubleshoot the FPGA behavior, enabling efficient debugging and optimization.
+
+Rabbit empowers FPGA developers, researchers, and enthusiasts by providing a comprehensive virtualization platform for seamless interaction with FDP3P7. Unlock the full potential of your FPGA projects with Rabbit's intuitive interface, real-time monitoring capabilities, and reliable USB connectivity.
+
+\section{Build Environment}
+
+\section{Rabbit System Design}
+
+\subsection{Architectural Overview}
+
+\subsection{User Interface Design}
+
+\subsection{Project Structure}
+
+\subsection{USB Host Driver}
+
+\subsection{Components}
+
+\section{Rabbit System Implementation}
+
+\section{Maintenence}
+
+\end{document}
